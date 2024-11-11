@@ -3,57 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Startup</title>
+    <title>Hackfinity</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="content">
+    <header class="header">
         <h1>Welcome to Hackfinity</h1>
-        <p>This is your one-stop solution to innovation and disruption.</p>
+    </header>
 
-        <h2>Our Vision</h2>
-        <p>We're breaking barriers, pushing limits, and redefining the future. No nonsense, just results.</p>
+    <main class="content">
+        <section>
+            <h2 id="vision">Our Vision</h2>
+            <p>We're breaking barriers, pushing limits, and redefining the future. No nonsense, just results.</p>
+        </section>
 
-        <h2>What We Offer</h2>
-        <p>We do things differently here. Here’s a quick rundown of what we bring to the table:</p>
-        <ul>
-            <li>Advanced AI Solutions</li>
-            <li>Machine Learning Expertise</li>
-            <li>Custom Software Development</li>
-            <li>End-to-End Consulting</li>
-        </ul>
+        <section>
+            <h2 id="offerings">What We Offer</h2>
+            <p>We do things differently here. Here’s a quick rundown of what we bring to the table:</p>
+            <ul>
+                <li>Advanced AI Solutions</li>
+                <li>Machine Learning Expertise</li>
+                <li>Custom Software Development</li>
+                <li>End-to-End Consulting</li>
+            </ul>
+        </section>
 
-        <h2>Jailbreaks</h2>
-        <p>Choose from our premium jailbreaks:</p>
-        <div class="products">
-            <div class="product">
-                <h3>ios 15</h3>
-                <p>The code that started it all. Unleash your device's full potential.</p>
-                <p><strong>Price:</strong> $99.99</p>
-                <button class="buy-now" data-product="ios 15" data-price="99.99">Buy Now</button>
+        <section>
+            <h2 id="jailbreaks">Jailbreaks</h2>
+            <p>Choose from our premium jailbreaks:</p>
+            <div class="products">
+                <div class="product">
+                    <h3>ios 15</h3>
+                    <p>The code that started it all. Unleash your device's full potential.</p>
+                    <p><strong>Price:</strong> $99.99</p>
+                    <button class="buy-now" data-product="ios 15" data-price="99.99">Buy Now</button>
+                </div>
+                <div class="product">
+                    <h3>ios 16</h3>
+                    <p>Rewriting the rules of security. Ideal for pen testing.</p>
+                    <p><strong>Price:</strong> $149.99</p>
+                    <button class="buy-now" data-product="ios 16" data-price="149.99">Buy Now</button>
+                </div>
+                <div class="product">
+                    <h3>ios 17</h3>
+                    <p>Next-gen penetration testing at your fingertips.</p>
+                    <p><strong>Price:</strong> $199.99</p>
+                    <button class="buy-now" data-product="ios 17" data-price="199.99">Buy Now</button>
+                </div>
+                <div class="product">
+                    <h3>PlayStation 4</h3>
+                    <p>Breaking boundaries in cybersecurity.</p>
+                    <p><strong>Price:</strong> $249.99</p>
+                    <button class="buy-now" data-product="playstation 4" data-price="249.99">Buy Now</button>
+                </div>
             </div>
-            <div class="product">
-                <h3>ios 16</h3>
-                <p>Rewriting the rules of security. Ideal for pen testing.</p>
-                <p><strong>Price:</strong> $149.99</p>
-                <button class="buy-now" data-product="ios 16" data-price="149.99">Buy Now</button>
-            </div>
-            <div class="product">
-                <h3>ios 17</h3>
-                <p>Next-gen penetration testing at your fingertips.</p>
-                <p><strong>Price:</strong> $199.99</p>
-                <button class="buy-now" data-product="ios 17" data-price="199.99">Buy Now</button>
-            </div>
-            <div class="product">
-                <h3>playstation 4</h3>
-                <p>Breaking boundaries in cybersecurity.</p>
-                <p><strong>Price:</strong> $249.99</p>
-                <button class="buy-now" data-product="playstation 4" data-price="249.99">Buy Now</button>
-            </div>
-        </div>
+        </section>
 
-        <!-- Payment Modal -->
-        <div id="payment-modal" class="modal">
+        <section id="payment-modal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2>Payment Method</h2>
@@ -69,8 +75,21 @@
                     <button type="submit">Confirm Payment</button>
                 </form>
             </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Hackfinity. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </footer>
 
     <script src="scripts.js"></script>
 </body>
